@@ -1,0 +1,92 @@
+#informationModal
+{
+    position : fixed ;
+    top : 0px ;
+    bottom : 0px ;
+    left : 0px ;
+    right : 0px ;
+    z-index : 998 ;
+    background : rgba(25 , 25 , 25 , 0.8)
+}
+
+#informationModal .modalDialog
+{
+    position : absolute ;
+    width : 50% ;
+    top : 50% ;
+    left : 50% ;
+    transform : translateX(-50%) translateY(-50%) ;
+    border-radius : 7px ;
+    background : #fefefe
+}
+
+#informationModal .modalDialog .header
+{
+    width : 100% ;
+    padding-top : 15px ;
+    padding-bottom : 15px ;
+    padding-left : 5px ;
+    padding-right : 5px ;
+    border-bottom : rgba(200 ,200 , 200 , 0.3) solid 1px
+}
+
+#informationModal .modalDialog .body
+{
+    width : 100% ;
+    padding-top : 10px ;
+    padding-bottom : 10px ;
+    padding-left : 5px ;
+    padding-right : 5px
+}
+
+#informationModal .modalDialog .footer
+{
+    width : 100% ;
+    height : 60px ;
+    display : flex ;
+    align-items : center ;
+    justify-content : flex-end ;
+    padding-top : 15px ;
+    padding-bottom : 15px ;
+    padding-left : 5px ;
+    padding-right : 5px ;
+    border-top : rgba(200 ,200 , 200 , 0.3) solid 1px
+}
+
+#informationModal .modalDialog .footer button
+ {
+     margin-left : 10px ;
+     margin-right : 10px
+ }
+
+#informationModal .modalDialog .footer button:focus
+{
+    outline : 0px
+}
+
+.my-input-group
+{
+    position : relative ;
+    width : 100% ;
+    height : 100% ;
+}
+
+.my-input-group .hintDisplay
+{
+    display : block ;
+    position : absolute ;
+    right : 15px ;
+    top : 50% ;
+    transform : translateY(-50%) ;
+    color : red
+}
+
+.my-input-group .hintHidden
+{
+    display : none ;
+    position : absolute ;
+    right : 15px ;
+    top : 50% ;
+    transform : translateY(-50%) ;
+    color : red
+}
